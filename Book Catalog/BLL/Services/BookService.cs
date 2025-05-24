@@ -45,7 +45,7 @@ namespace Book_Catalog.BLL.Services
             }
             if (!bookDtos.Any())
             {
-                throw new KeyNotFoundException("No Books found for the specified user.");
+                throw new KeyNotFoundException("No Books Found");
 
             }
             return bookDtos;
