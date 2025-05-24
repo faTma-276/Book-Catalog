@@ -26,7 +26,9 @@ The API supports adding books and retrieving the full list. This project is inte
   "title": "string",
   "author": "string"
 }
+
 ---
+
 ## Notes
 - No database required.
 - No authentication.
